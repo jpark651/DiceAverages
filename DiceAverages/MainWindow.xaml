@@ -1,0 +1,15 @@
+﻿<Window x:Class="DiceAverages.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dice Averages" Height="194" Width="157" ResizeMode="CanMinimize">
+    <Grid Width="141" Height="159">
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="18,12,0,0" Name="diceNumBox" VerticalAlignment="Top" Width="36" />
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="73,12,0,0" Name="diceSizeBox" VerticalAlignment="Top" Width="36" />
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="18,46,0,0" Name="rollsNumBox" VerticalAlignment="Top" Width="36" />
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="18,80,0,0" Name="totalTrialsBox" VerticalAlignment="Top" Width="108" Text="(total trials)" GotFocus="totalTrialsBox_GotFocus" FontStyle="Italic" Foreground="#FFA09C9C" />
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="90,119,0,0" Name="averageBox" VerticalAlignment="Top" Width="36" IsReadOnly="True" Focusable="False" IsHitTestVisible="False" BorderBrush="Black" />
+        <Button Content="Average" Height="28" HorizontalAlignment="Left" Margin="18,119,0,0" Name="button_Average" VerticalAlignment="Top" Width="66" Click="button_Average_Click" />
+        <TextBlock Height="24" HorizontalAlignment="Left" Margin="62,49,0,0" Name="label1" Text="Rolls / Trial" VerticalAlignment="Top" Width="64" />
+        <TextBlock Height="24" HorizontalAlignment="Left" Margin="59,15,0,0" Name="label2" Text="d" VerticalAlignment="Top" Width="32" />
+    </Grid>
+</Window>
