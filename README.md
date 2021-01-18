@@ -1,3 +1,5 @@
+# Dice Averages
+
 Simulates sets of dice rolls and averages the results.
 
 The user can select the following values:
